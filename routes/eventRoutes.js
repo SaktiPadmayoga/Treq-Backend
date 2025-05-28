@@ -5,7 +5,8 @@ const {
   getEventById,
   createEvent,
   updateEvent,
-  deleteEvent
+  deleteEvent,
+  getCalendarEvents
 } = require('../controllers/eventController');
 const { protect } = require('../middlewares/authMiddleware');
 
