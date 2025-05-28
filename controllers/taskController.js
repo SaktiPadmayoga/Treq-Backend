@@ -1,5 +1,5 @@
 const Task = require('../models/Task');
-const Event = require('../models/eventModel'); // import
+const Event = require('../models/Event'); // import
 
 const createTask = async (req, res) => {
     try {
