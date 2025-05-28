@@ -39,6 +39,8 @@ const registerUser = async (req, res) => {
         const token = generateToken(user._id);
 
         res.status(201).json({
+            success: true,
+            message: 'User registered successfully',
             _id: user._id,
             name: user.name,
             email: user.email,
@@ -71,6 +73,8 @@ const loginUser = async (req, res) => {
         // Generate token
         const token = generateToken(user._id);
         res.status(200).json({
+            success: true,
+            message: 'User logged in successfully',
             _id: user._id,
             name: user.name,
             email: user.email,
