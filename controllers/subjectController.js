@@ -1,5 +1,5 @@
-    const Subject = require('../models/subjectModel');
-    const Event = require('../models/eventModel'); // import
+    const Subject = require('../models/Subject');
+    const Event = require('../models/Event'); // import
 
 const createSubject = async (req, res) => {
     try {
