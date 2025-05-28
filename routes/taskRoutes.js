@@ -5,7 +5,11 @@ const {
   getTaskById,
   updateTask,
   deleteTask,
-  getMyTaskProgress
+  getMyTaskProgress,
+    updateTaskStatus,
+    updateTaskChecklist,
+    getDashboardData
+
 } = require('../controllers/taskController');
 const { protect } = require('../middlewares/authMiddleware');
 
